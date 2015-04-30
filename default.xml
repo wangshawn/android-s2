@@ -259,7 +259,7 @@
   <project path="vendor/qcom/opensource/omx/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-video" />
-  <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
+  <project path="vendor/qcom/opensource/v8" name="wangshawn/android_vendor_qcom_opensource_v8" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
@@ -274,4 +274,8 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
   <project path="android" name="CyanogenMod/android" />
+  <project name="codeworkx/buildscripts" path="buildscripts" remote="github">
+            <copyfile dest="build.sh" src="build.sh" />
+  </project>
+  <project name="multipath-tcp/android_kernel_samsung_smdk4210" path="kernel/samsung/smdk4210" remote="github" revision="ics" />
 </manifest>
